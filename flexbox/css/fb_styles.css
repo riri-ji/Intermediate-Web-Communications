@@ -58,52 +58,129 @@ For the enitre webpage, set
     horizontal padding of 50px
 */
 
+body
+{
+font-family: "Playwrite DE Grund", Arial, Helvetica, sans-serif;
+background: #B7B7B7;
+color: #424242;
+padding: 10px 50px;
+}
+
 /*
 Target h3 and b tags to set font color to #068FFF and add text-decoration of underline
 */
-
+h3, b
+{
+    color: #068FFF;
+    text-decoration: underline;
+}
 /*
 Add a top border of 2px width to the footer. Use #ECDFCC as color of border
 Set the font color of all the text in footer to #424242, font size of 0.7rem and align all the text to the center of the screen.
 For unordered list inside footer, set list-style to none.
 */
 
+footer
+{
+    border: 2px solid #ECDFCC;
+    color: #424242;
+    font-size: .7rem;
+    align-items: center;
+    list-style: none;
+}
+
 /*
 Target section tag to add a background color of #F5F5F5, padding of 10px, vertical margin of 10px and a border radius of 10px
 */
+
+section
+{
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
 
 /*
 Target definition id and set font color to #DC5F00, font size of 1.1rem.
 */
 
+#definition
+{
+    color: #DC5F00;
+}
+
 /*
 Target basicTerms class to set display to inline-block, height of 200px, padding of 10px, border of 1px, border color to #FECDA6, border radius of 10px, background color to #FECDA6
 */
+
+.basicTerms{
+    display: inline-block;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #FECDA6;
+    background: #FECDA6;
+
+}
 
 /*
 Change the height of basicTerm class to 300px when user hover over it.
 */
 
+.basicTerms
+{height: 300px;}
+
 /*
 Target caption class to set font size to 0.6rem, add underline to the text and align text to the center.
 */
+
+.caption
+{
+    font-size: .6rem;
+    text-decoration: underline;
+    align-items: center;
+}
 
 /*
 Target code-example class to set width to fit-content, padding of 15px, background color to #424242, text color to #ECDFCC and 10px border radius
 */
 
+.code-example
+{
+width: fit-content;
+padding: 15px;
+background: #424242;
+color: #ECDFCC;
+border-radius: 10px;
+}
 /*
 Target comment class to set font color to gray
 */
-
+.comment
+{
+    color: grey;
+}
 /*
 Target playground id to set background color to #AFC8AD border radius to 10px width of 100% and min-height to 300px
 */
-
+#playground
+{
+    background: #AFC8AD;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 300px;
+}
 /*
 Target flex-container id to set a border of 2px and border color to #F5F5F7, border radius to 5px 
 */
-
+#flexcontainer 
+{border: 2px solid #F5F5F7;
+border-radius: 5px;}
 /*
 target flex-item class to set width and height to 50px, border radius of 5px, background color of #F5F5F7 and a margin of 5px 
 */
+.flexitem
+{width: 50px;
+height: 50px;
+background: #F5F5F7;
+margin: 5px;}
